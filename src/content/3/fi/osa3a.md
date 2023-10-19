@@ -945,7 +945,7 @@ Sovelluksen tämän hetkinen koodi on kokonaisuudessaan [GitHubissa](https://git
 
 #### 3.7: puhelinluettelon backend step7
 
-Lisää sovellukseesi loggausta tekevä middleware [morgan](https://github.com/expressjs/morgan). Konfiguroi se logaamaan konsoliin <i>tiny</i>-konfiguraation mukaisesti.
+Lisää sovellukseesi loggausta tekevä middleware [morgan](https://github.com/expressjs/morgan). Konfiguroi se tulostamaan loki terminaaliin <i>tiny</i>-konfiguraation mukaisesti.
 
 Morganin ohjeet eivät ole ehkä kaikkein selvimmät, ja joudut kenties miettimään hiukan. Toisaalta juuri koskaan dokumentaatio ei ole aivan itsestäänselvää, joten kryptisempiäkin asioita on hyvä oppia tulkitsemaan.
 
