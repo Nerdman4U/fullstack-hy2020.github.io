@@ -147,7 +147,7 @@ Headerin arvon tarkastaminen näyttää syntaksiltaan hieman kummalliselta:
 .expect('Content-Type', /application\/json/)
 ```
 
-Haluttu arvo on nyt määritelty [regexinä](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) eli suomeksi säännöllisenä lausekkeena. Regex alkaa ja loppuu vinoviivaan /, koska haluttu merkkijono <i>application/json</i> myös sisältää saman vinoviivan, on sen eteen laitettu \ jotta sitä ei tulkita regexin lopetusmerkiksi.
+Haluttu arvo on nyt määritelty [regexpinä](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) eli suomeksi säännöllisenä lausekkeena. Regex alkaa ja loppuu vinoviivaan /, koska haluttu merkkijono <i>application/json</i> myös sisältää saman vinoviivan, on sen eteen laitettu \ jotta sitä ei tulkita regexin lopetusmerkiksi.
 
 Periaatteessa testi olisi voitu määritellä myös normaalina merkkijonona
 
