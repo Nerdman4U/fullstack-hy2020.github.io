@@ -618,7 +618,7 @@ console.log(loput)  // tulostuu [3, 4, 5, 6]
 
 Tehdään hieman yksinkertaistettu versio osan 1 Unicafe-tehtävästä. Hoidetaan sovelluksen tilan käsittely Reduxin avulla.
 
-Voit ottaa sovelluksesi pohjaksi repositoriossa https://github.com/fullstack-hy2020/unicafe-redux olevan projektin.
+Voit ottaa sovelluksesi pohjaksi repositoriossa https://github.com/fullstack-hy2020/unicafe-redux olevan projektin (Huom! Nodessa on virhe versiossa 20.6 jolloin vite.config ei toimi. Toimii node 18.8 sekä taas 20.7 versioissa).
 
 <i>Aloita poistamalla kloonatun sovelluksen Git-konfiguraatio ja asentamalla riippuvuudet:</i>
 
