@@ -735,7 +735,7 @@ Lisätään sovellukseen mahdollisuus uusien muistiinpanojen tekemiseen sekä t�
 
 ```js
 const generateId = () =>
-  Number((Math.random() * 1000000).toFixed(0))
+  Date.now()+Math.floor(Math.random()*1000)
 
 const App = () => {
   // highlight-start
